@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: black; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    border-bottom: 1px solid red;
+    color:red; 
+}
+
+.navbar-toggler-icon {
+    color: #000; 
+    border: none; 
+}
+
+.header{
+    border-bottom:1px solid #000;
+    text-align: center;
+    
+}
+.navbar{
+    border-bottom:1px solid #000;
+}
+
+.header .container-fluid {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.news-agency {
+    color: inherit; /* Inherit the color from the parent element */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px;
+}
+
+.navbar-nav {
+    padding: 5px;
+}
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar-toggler {
+    border: none;
+}
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+.header {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.navbar {
+    background-color: #fff;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+section {
+    padding: 60px 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.contact-area {
+    border-bottom: 1px solid #fff;
+}
+
+.contact-content p {
+    font-size: 15px;
+    margin: 30px 0 60px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-content p::after {
+    background: #fff;
+    bottom: -30px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+.contact-content h6 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-content span {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.contact-social {
+    margin-top: 30px;
+}
+
+.contact-social > ul {
+    display: inline-flex;
+}
+
+.contact-social ul li a {
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    margin: 0 10px;
+    padding-top: 7px;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+
+.contact-social ul li a:hover {
+    border: 1px solid #F6AA1C;
+    color: #FAB702;
+}
+
+.contact-content img {
+    max-width: 210px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section, footer {
+    background: #fff;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    border-top: 1px solid #000;
+}
+
+.footer-col p{
+    padding: 0px;
+}
+
+.footer-col h5{
+    padding-bottom: 2px;
+}
+
+footer p {
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+section p:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+section h5:hover {
+    color: red
+}
+
+section hr{
+    border: 1px solid black;
+}
+
+
+
+.footer-news-agency {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+
+
+.footer-copyright {
+    font-size: 16px;
+    opacity: 0.8;
+    padding: 10px 0;
+}
+
+.subscribe-form {
+    position: relative;
+    overflow: hidden;
+  }
+  .subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #fff;
+    border: 1px solid #2E2E2E;
+    color: #fff;
+  }
+  .subscribe-form button {
+      position: absolute;
+      right: 0;
+      background: red;
+      padding: 13px 20px;
+      border: 1px solid black;
+      top: 10;
+  }
+  .subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+    transform: rotate(-6deg);
+  }

@@ -1,0 +1,278 @@
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    margin: 20px;
+}
+
+
+.news-header h1{
+    font-size: 40px;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.news-header h4{
+    font-size: 22px;
+
+    margin-bottom: 10px;
+}
+
+.related-news h4{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 2px solid red;
+}
+.related-news {
+    text-align: center;
+    
+}
+.card-body{
+    text-align: justify;
+}
+
+.news-title{
+    font-size: 38px;
+    text-align: justify;
+}
+
+.news-date{
+    font-size: 26px;
+    color: #1c1c1c;
+    
+}
+
+.news-title1{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.news-date1{
+    font-size: 16px;
+    color: #1c1c1c;
+    font-weight: 400;
+}
+
+.news-side img{
+    height: 80%;
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.news-pic img{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+.news-pic1 img{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card{
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    width: 100%; /* Ensure card fills its parent container */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for transform and box-shadow */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card:hover{
+    transform: translateY(-5px); /* Move card up slightly on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.news-bottom img{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+.news-container{
+    padding-top: 20px;
+}
+
+.flash-news-container{
+    background-color: #212936;
+    padding: 20px;
+}
+
+
+.flash-news-container .row{
+    padding: 10px
+}
+
+.flash-header{
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: #fff;
+    border-bottom: 2px solid red;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 25px;
+    padding-bottom: 10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    
+}
+.overlay h1, .overlay h5 {
+    margin: 0;
+    line-height: 1;
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.overlay h5 {
+    font-size: 14px;
+}
+
+section{
+    padding: 40px;
+}
+
+.news-body2{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.news-body2 h5{
+    color: #fff;
+}
+
+.flash-pic{
+    border: 1px solid white;
+    box-shadow: 0 2px 2px rgba(255, 255, 255, 0.3);
+}
+
+.news-details{
+    font-size: 20px;
+    color: #343333;
+    font-weight: 500;
+    padding-top:10px;
+    
+}
+
+.news-title{
+    font-size: 60px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.news-pic1{
+    margin-top: 20px;
+   
+}
+
+.news-text{
+    font-size: 18px;
+    font-weight: 400;
+   padding-top: 20px;
+}
+
+.news-photographer{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+
+.emotions-row {
+    border: 1px solid black;
+    background-color: white;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.emotion-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.emotion-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+.emotion-pic {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.emotion-pic:hover{
+    transform: scale(1.4);
+    filter:drop-shadow(0 8px 16px rgba(255, 0, 0, 0.2)); 
+}
+.emotion {
+    color: #000;
+    padding-top: 10px;
+}
+.writer{
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.writer h4{
+    border-bottom: 1px solid red;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.writer h5{
+    padding-top:20px;
+}
+
+.writer-info a{
+    text-decoration: none;
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.writer-info{
+    padding-top: 40px;
+}
+
+.writer img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+@media (max-width: 992px) {
+    .flash-news-container {
+        padding: 10px;
+    }
+    .news-title1 {
+        font-size: 16px;
+    }
+    .news-body1{
+        margin-top: -45px;
+        margin-bottom: 15px;
+    }
+    
+}
