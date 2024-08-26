@@ -1,0 +1,312 @@
+body {
+  background-image: url(images/tetrisbg.png);
+  margin: 0;
+}
+
+.textimg {
+  text-align: center;
+  margin-top: 7%;
+}
+
+.textimg2 {
+  text-align: center;
+  margin-top: -5%;
+}
+
+.comic-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff5252;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+}
+
+.comic-button:hover {
+  
+  background-color: #fff;
+  color: #ff5252;
+  border: 2px solid #ff5252;
+  box-shadow: 5px 5px 0px #ff5252;
+}
+
+.comic-button:active {
+  background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.btn {
+  text-align: center;
+}
+
+.button2 {
+  margin-left: 3%;
+  background-color: #1cb0f5;
+}
+
+.button2:hover {
+  background-color: #fff;
+  color: #1cb0f5;
+  border: 2px solid #1cb0f5;
+  box-shadow: 5px 5px 0px #1cb0f5;
+}
+
+.button2:active {
+  background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.button3 {
+  margin-left: 3%;
+  background-color: #00d12d;
+}
+
+.button3:hover {
+  background-color: #fff;
+  color: #00d12d;
+  border: 2px solid #00d12d;
+  box-shadow: 5px 5px 0px #00d12d;
+}
+
+.button3:active {
+  background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.button4 {
+  margin-left: 3%;
+  background-color: #fcf414;
+}
+
+.button4:hover {
+  background-color: #fff;
+  color: #fcf414;
+  border: 2px solid #fcf414;
+  box-shadow: 5px 5px 0px #fcf414;
+}
+
+.button4:active {
+  background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+
+
+
+
+/*NAVIGATION*/
+.header {
+  
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navlist {
+  list-style: none;
+  display: inline-block;
+  margin-right: 25px;
+  margin-top: 2%;
+}
+
+.navbar {
+  border-bottom: 1px solid #000;
+}
+
+.header .container-fluid {
+
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.news-agency {
+  color: inherit;
+  text-decoration: none;
+
+}
+
+.news-agency img {
+  width: 32%;
+}
+
+.navbar-nav {
+
+  padding: 5px;
+}
+
+.navbar {
+  justify-content: space-between;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding-bottom: 0.5%;
+  background-color: rgba(255, 255, 255, 0.699);
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  margin-left: -10%;
+}
+
+.header {
+  text-align: center;
+  padding: 5px 0 0 0;
+  
+}
+
+ul {
+  margin-right: 5%;
+
+}
+
+.hvclred:hover {
+  border-radius: 10px;
+  background-color: #f41823;
+  color: white;
+}
+
+.hvclyellow:hover {
+  border-radius: 10px;
+  background-color: #ecd500;
+  color: white;
+}
+
+.hvclblue:hover {
+  border-radius: 10px;
+  background-color: rgb(0, 174, 255);
+  color: white;
+}
+
+.hvclgreen:hover {
+  border-radius: 10px;
+  background-color: rgb(90, 199, 0);
+  color: white;
+}
+
+.sticky-nav .hamburger {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin-right: 8%;
+  padding: 0;
+}
+
+.navlist a {
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.nav-menu {
+  transition: all 0.3s ease;
+}
+.txtshadow{
+  text-shadow: black 1px 1px 15px;  
+  
+}
+
+.txtcolorred {
+  color: #ff3131;
+}
+
+.txtcoloryellow {
+  color: #ecd500;
+}
+
+.txtcolorgreen {
+  color: rgb(90, 199, 0);
+}
+
+.txtcolorblue {
+  color: rgb(0, 59, 253);
+}
+
+/* CURSOR CSS*/
+body {
+  margin: 0;
+  overflow: hidden;
+  cursor: none; /* Hide the default cursor */
+}
+.cursor {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  pointer-events: none;
+  z-index: 9999;
+}
+.block {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+}
+#gameArea {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.user-select-none {
+  user-select: none; /* Standard property */
+  -webkit-user-select: none; /* Chrome, Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+
+/* CURSOR CSS ENDD*/
+
+
+
+
+/* Styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    /* Adjust based on your header height */
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .sticky-nav .hamburger {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+}

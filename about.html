@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+        import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';
+
+        const widget = await Chatbox.initBubble({
+            agentId: 'clzqsryyl0239v1a5jf8c4d3v',
+
+            // optional
+            // Override initial messages
+            initialMessages: [
+                'Hello how are you doing today?',
+                'How can I help you ?',
+            ],
+
+        });
+
+        // open the chat bubble
+        widget.open();
+
+        // close the chat bubble
+        widget.close()
+
+        // or 
+        widget.toggle()
+    </script>
+</head>
+
+<body>
+    <nav class="sticky-nav">
+        <div class="header">
+            <div class="logo">
+                <a class="news-agency" href="index.html"><img src="images/txtwithshadow.png"></a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776; <!-- Hamburger icon -->
+            </div>
+            <ul class="nav-menu">
+                <li class="navlist"><a href="index.html" class="txtcolorred hvclred txtshadow">Home</a></li>
+                <li class="navlist"><a href="about.html" class="txtcoloryellow hvclyellow txtshadow">About</a></li>
+                <li class="navlist"><a href="news.html" class="txtcolorblue hvclblue txtshadow">Articles</a></li>
+                <li class="navlist"><a href="shop.html" class="txtcolorgreen hvclgreen txtshadow">Merch</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 scrollspy">
+        <nav class="nav nav-pills flex-column">
+            
+            <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item1">About Us</a>
+                <a class="nav-link ms-3 my-1" href="#item2">What is Tetris®?</a>
+                <a class="nav-link ms-3 my-1" href="#item3">How do you play?</a>
+            </nav>
+
+            <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item4">Who Created Tetris®?</a>
+                <a class="nav-link ms-3 my-1" href="#item5">The Tetris® Effect</a>
+            </nav>
+        </nav>
+    </nav>
+
+    <div class="textimg"><img src="images/text.png"></div>
+    <div abouttxt data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+        class="scrollspy-example-2 abouttxt" tabindex="0">
+        <div id="item1">
+            <h1>
+                About Us
+            </h1>
+            <p>Welcome to Behind the Blocks, a dedicated space where we celebrate and share everything about Tetris. Our
+                mission is to dive deep into the history, gameplay, and cultural impact of this iconic puzzle game,
+                created
+                by Alexey Pajitnov in 1984. Whether you're curious about the origins of Tetris, fascinated by the
+                strategies
+                behind stacking blocks, or just a fan of the game's enduring legacy, Behind the Blocks offers insights,
+                stories, and engaging content for every Tetris enthusiast. Join us as we explore and tell the story of
+                Tetris, one block at a time.
+            </p>
+        </div>
+        <br>
+        <br>
+        <div id="item2">
+            <h1>
+                What is Tetris®?
+            </h1>
+            <p>Tetris is a classic puzzle video game where players arrange falling blocks, known as "Tetriminos," to
+                create
+                complete horizontal lines. As the blocks descend, players must rotate and fit them together in
+                real-time,
+                with completed lines disappearing and earning points. The game ends when the stack of blocks reaches the
+                top
+                of the screen. Created by Alexey Pajitnov in 1984, Tetris is renowned for its simple yet addictive
+                gameplay
+                and has become a cultural icon, available on a wide range of platforms and influencing numerous other
+                games.
+            </p>
+        </div>
+        <br>
+        <br>
+        <div id="item3">
+            <h1>
+                How do you play?
+            </h1>
+            <p>To play Tetris, the goal is to arrange falling blocks, called "Tetriminos," to form complete horizontal
+                lines. As the Tetriminos fall from the top of the screen, you can move them left or right, rotate them,
+                and
+                drop them quickly to the bottom. When a line is completed, it disappears, and you earn points. The game
+                continues, with the speed of falling blocks increasing as you progress. If the blocks stack up to the
+                top of
+                the screen without clearing lines, the game ends. The challenge lies in strategically placing and
+                rotating
+                the Tetriminos to clear as many lines as possible before the screen fills up.
+            </p>
+        </div>
+        <br>
+        <br>
+        <div id="item4">
+            <h1>
+                Who Created Tetris®?
+            </h1>
+            <p>In 1984, Tetris® was born from the imagination of computer programmer Alexey Pajitnov. Inspired by his
+                favorite puzzle board game, Pentominos, Pajitnov created an electronic game that let players arrange
+                puzzle
+                pieces in real time as they fell from the top of the playing field. The resulting design was a game that
+                used seven distinctive geometric playing pieces, each made up of four squares. Pajitnov called this game
+                “Tetris,” a combination of “tetra” (the Greek word meaning “four”) and “tennis” (his favorite sport).
+            </p>
+        </div>
+        <br>
+        <br>
+        <div id="item5">
+            <h1>
+                The Tetris® Effect
+            </h1>
+            <p>The Tetris® Effect is a catchy term that players use to describe the way they are inspired by the game
+                and
+                see Tetriminos in everyday situations. Because Tetris, like the real world, challenges players to make
+                order
+                out of chaos using a specific organization system, the game components translate easily into lifestyle
+                interpretations. Whether you're packing the trunk of your car, loading a dishwasher, or organizing your
+                shelves, you're likely thinking about how each object will fit together strategically with minimal empty
+                space. This is the Tetris Effect!
+            </p>
+        </div>
+
+    </div>
+    <footer class="footer-copyright">
+        <p>Reference: <a style="font-weight: 800;" href="https://tetris.com/about-us">https://tetris.com/about-us</a></p>
+    </footer>
+
+</body>
+
+</html>

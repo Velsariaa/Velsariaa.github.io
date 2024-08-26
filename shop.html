@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/d84bfa7905.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <script type="module">
+        import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';
+
+        const widget = await Chatbox.initBubble({
+            agentId: 'clzqsryyl0239v1a5jf8c4d3v',
+
+            // optional
+            // Override initial messages
+            initialMessages: [
+                'Hello how are you doing today?',
+                'How can I help you ?',
+            ],
+
+        });
+
+        // open the chat bubble
+        widget.open();
+
+        // close the chat bubble
+        widget.close()
+
+        // or 
+        widget.toggle()
+    </script>
+</head>
+
+<body>
+    <nav class="sticky-nav">
+        <div class="header">
+            <div class="logo">
+                <a class="news-agency" href="index.html"><img src="images/txtwithshadow.png"></a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776; <!-- Hamburger icon -->
+            </div>
+            <ul class="nav-menu">
+                <li class="navlist"><a href="index.html" class="txtcolorred hvclred txtshadow">Home</a></li>
+                <li class="navlist"><a href="about.html" class="txtcoloryellow hvclyellow txtshadow">About</a></li>
+                <li class="navlist"><a href="news.html" class="txtcolorblue hvclblue txtshadow">Articles</a></li>
+                <li class="navlist"><a href="shop.html" class="txtcolorgreen hvclgreen txtshadow">Merch</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="background">
+        <div class="title">
+            <img src="images/merchandisetxt.png">
+            <a href="https://www.amazon.com/s?k=tetris+merch+on+demand">
+                <h1>Shop at Amazon.com!</h1>
+            </a>
+        </div>
+    </div>
+
+    <div class="clothes">
+
+        <div class="container-fluid cardscontainer">
+
+            <div class="cards">
+                <a href="https://www.amazon.com/s?k=tetris+merch+on+demand">
+                    <div class="contents">
+                        <img src="images/merch1.png">
+                        <p>Tetris - Play All Day! Adult Oversized Vintage T-Shirt</p>
+                    </div>
+            </div>
+            </a>
+
+            <div class="cards">
+                <a href="https://www.amazon.com/s?k=tetris+merch+on+demand">
+                    <div class="contents">
+
+                        <img src="images/merch2.png">
+                        <p>Tetris Color Logo T-Shirt</p>
+                    </div>
+            </div></a>
+
+            <div class="cards">
+                <a href="https://www.amazon.com/s?k=tetris+merch+on+demand">
+                    <div class="contents">
+
+                        <img src="images/merch3.png">
+                        <p>Tetris Stacking the Fun Since '84 T-Shirt</p>
+                    </div>
+            </div></a>
+
+            <div class="cards">
+                <a href="https://www.amazon.com/s?k=tetris+merch+on+demand">
+                    <div class="contents">
+
+                        <img src="images/merch4.png">
+                        <p>PLAY TETRIS! NEW LOGO T-Shirt</p>
+                    </div>
+            </div>
+
+            <div class="cards">
+                <a href="https://www.amazon.com/s?k=tetris+merch+on+demand">
+                    <div class="contents">
+
+                        <img src="images/merch5.png">
+                        <p>Tetris 8-Bit Modern T-Shirt</p>
+                    </div>
+            </div></a>
+
+            <div class="cards">
+                <a href="https://www.amazon.com/s?k=tetris+merch+on+demand">
+                    <div class="contents">
+
+                        <img src="images/merch6.png">
+                        <p>Men's Retro Tetris Video Game Blocks Novelty Dress & Trouser Crew Socks</p>
+                    </div>
+            </div></a>
+
+            <div class="cards">
+                <a href="https://www.amazon.com/s?k=tetris+merch+on+demand">
+                    <div class="contents">
+
+                        <img src="images/merch7.png">
+                        <p>TCG Toys Tetris Dual</p>
+                    </div>
+            </div></a>
+
+            <div class="cards">
+                <a href="https://www.amazon.com/s?k=tetris+merch+on+demand">
+                    <div class="contents">
+
+                        <img src="images/merch8.png">
+                        <p>Tetris Graffiti Heart T-Shirt</p>
+                    </div>
+            </div></a>
+        </div>
+    </div>
+    <footer class="footer-copyright">
+        <p>Reference: <a style="font-weight: 800;" href="https://www.amazon.com">https://www.amazon.com</a></p>
+    </footer>
+</body>
+
+</html>

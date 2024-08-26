@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tetris News</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/d84bfa7905.js" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <script src="home.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <script type="module">
+        import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';
+      
+        const widget = await Chatbox.initBubble({
+          agentId: 'clzqsryyl0239v1a5jf8c4d3v',
+         
+          // optional
+          // Override initial messages
+          initialMessages: [
+            'Hello how are you doing today?',
+            'How can I help you ?',
+          ],
+          
+        });
+      
+        // open the chat bubble
+        widget.open();
+      
+        // close the chat bubble
+        widget.close()
+      
+        // or 
+        widget.toggle()
+      </script>
+</head>
+
+<body>
+    <nav class="sticky-nav">
+        <div class="header">
+            <div class="logo">
+                <a class="news-agency" href="index.html"><img src="images/txtwithshadow.png"></a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776; <!-- Hamburger icon -->
+            </div>
+            <ul class="nav-menu">
+                <li class="navlist"><a href="index.html" class="txtcolorred hvclred txtshadow">Home</a></li>
+                <li class="navlist"><a href="about.html" class="txtcoloryellow hvclyellow txtshadow">About</a></li>
+                <li class="navlist"><a href="news.html" class="txtcolorblue hvclblue txtshadow">Articles</a></li>
+                <li class="navlist"><a href="shop.html" class="txtcolorgreen hvclgreen txtshadow">Merch</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="bodywidth">
+        <div class="newsbody container-fluid">
+            <div class="row">
+                <div class="left col-lg-6 col-md-12">
+                    <div class="col-lg-12">
+                        <div id="tinigcarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="cardinside2 cicoloryellow">
+                                        <p>Add-Ons</p>
+                                    </div>
+                                    <a href="https://tetris.com"><img src="images/newsimg.png"
+                                            class="d-block w-100"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="cardinside2 cicolorblue">
+                                        <p>Merch</p>
+                                    </div>
+                                    <a href="https://tetris.com"><img src="images/newsimg1.png"
+                                            class="d-block w-100"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="cardinside2 cicolorred">
+                                        <p>Gifts</p>
+                                    </div>
+                                    <a href="https://tetris.com"><img src="images/newsimg2.png"
+                                            class="d-block w-100"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="cardinside2 cicolorgreen">
+                                        <p>News</p>
+                                    </div>
+                                    <a href="https://tetris.com"><img src="images/newsimg3.png"
+                                            class="d-block w-100"></a>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#tinigcarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#tinigcarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-6 col-md-12 container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 box2">
+                            <div class="card1">
+                                <div class="cardinside cicoloryellow">
+                                    <p>Add-Ons</p>
+                                </div>
+                                <a
+                                    href="https://www.minecraft.net/en-us/marketplace/pdp?id=f3e05d62-6ff0-4de5-a2ff-ad5cecc7d01c"><img
+                                        src="images/newsimg.png">
+                                    <div class="hovertxt">
+                                        <h3>Minecraft X Tetris Add-On</h3>
+                                        <p>Bring Tetris® magic to any of your Minecraft worlds with the Tetris add-on
+                                            available in the Minecraft Marketplace.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 box2">
+                            <div class="card1">
+                                <div class="cardinside cicolorgreen">
+                                    <p>News</p>
+                                </div>
+                                <a href="https://tetris.com/article/291/digital-trends-selects-tetris-as-1"><img
+                                        src="images/newsimg3.png">
+                                    <div class="hovertxt">
+                                        <h3>Digital Trends Selects Tetris #1</h3>
+                                        <p>From Doom to Breath of the Wild, Digital Trends has named 50 games they
+                                            believe represent the best of what #videogames have to offer.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="right col-lg-6 col-md-6 box2">
+                            <div class="card1" style="margin-top: 3.8%;">
+                                <div class="cardinside cicolorred">
+                                    <p>Gifts</p>
+                                </div>
+                                <a
+                                    href="https://tetris.com/article/256/celebrate-world-tetris-day-with-g-fuels-new-tetris-blast-energy-drink"><img
+                                        src="images/newsimg2.png">
+                                    <div class="hovertxt">
+                                        <h3>Celebrate World Tetris Day With G FUEL</h3>
+                                        <p>Available at GFUEL.com for a limited time!</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 box2">
+                            <div class="card1" style="margin-top: 3.8%;">
+                                <div class="cardinside cicolorblue">
+                                    <p>Merch</p>
+                                </div>
+                                <a href="https://tetris.com/#item-01"><img src="images/newsimg1.png">
+                                    <div class="hovertxt">
+                                        <h3>New Tetris Merch Available on Amazon.com!</h3>
+                                        <p>Shop the entire collection Now!</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="trendingnews1">
+            <a class="trendingnewsin1 txtcolorblue">LATEST NEWS </a>
+        </div>
+        <div class="newsbody2">
+            <div class="customcolumn6">
+                <div>
+                    <div class="stayconnected">
+                        <div class="cardinside2 cicolorgreen">
+                            <p>News</p>
+                        </div>
+                        <a href="https://tetris.com">
+                            <div class="hovertxt">
+                                <h3>World Tetris Day: Press Release 2024</h3>
+                            </div>
+                            <img src="images/trend1.png">
+                        </a>
+                    </div>
+                    <div class="trendingnews">
+                        <h4>TETRIS® BRAND CELEBRATES 40 YEARS WITH A BLOCKBUSTER LINEUP OF NEW ANNOUNCEMENTS, INCLUDING
+                            MINECRAFT AND MORE...</h4>
+                        <h5>June 6, 2024</h5>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="customcolumn6">
+                <div>
+                    <div class="stayconnected">
+                        <div class="cardinside2 cicolorgreen">
+                            <p>News</p>
+                        </div>
+                        <a href="https://tetris.com">
+                            <div class="hovertxt">
+                                <h3>STACKING A LEGACY</h3>
+                            </div>
+                            <img src="images/trend2.png">
+                        </a>
+                    </div>
+                    <div class="trendingnews">
+                        <h4>PLANS FALL INTO PLACE FOR TETRIS' 40TH ANNIVERSARY</h4>
+                        <h5>June 3, 2024</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customcolumn4">
+                <div class="graybg mrgn">
+                    <p class="txtcolorblue stayconnectedtxt">PLAY TETRIS</p>
+                    <a href="https://tetris.com/play-tetris/">
+                        <div class="stayconnected">
+                            <img src="images/tetrisgifcrop.gif">
+                            <div class="hovertxt">
+                                <h3>PLAY TETRIS</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="graybg">
+                    <div class="mostread">
+                        <h3 class="txtcolorblue">LATEST ARTICLES</h3>
+                    </div>
+
+                    <div class="mostreadgrid">
+                        <div class="number">
+                            <p class="numcolorred">1</p>
+                        </div>
+                        <div class="mostreadtitle">
+                            <h3 class="txtcolorblue">NEWS</h3>
+                            <a class='decor' href="https://tetris.com">
+                                <p>The sights and sounds of Pokémon Legends: Arceus visit Tetris 99</p>
+                            </a>
+                            <h5>3 min read</5>
+                        </div>
+                    </div>
+
+                    <div class="mostreadgrid">
+                        <div class="number">
+                            <p class="numcoloryellow">2</p>
+                        </div>
+                        <div class="mostreadtitle">
+                            <h3 class="txtcolorblue">FEATURE</h3>
+                            <a class='decor' href="https://tetris.com">
+                                <p>The Versatility of the Tetris Theme</p>
+                            </a>
+                            <h5>4 min read</5>
+                        </div>
+                    </div>
+
+                    <div class="mostreadgrid">
+                        <div class="number">
+                            <p class="numcolorgreen">3</p>
+                        </div>
+                        <div class="mostreadtitle">
+                            <h3 class="txtcolorblue">LIFE</h3>
+                            <a class='decor' href="https://tetris.com">
+                                <p>If You're Feelin' Lucky, Enter Our Instagram Sweepstakes!</p>
+                            </a>
+                            <h5>2 min read</5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer-copyright">
+        <p>Reference: <a style="font-weight: 800;" href="https://tetris.com">Tetris.com</a></p>
+    </footer>
+</body>
+
+</html>
